@@ -1,4 +1,4 @@
-import profilePic from "public/assets/anujPanwarProfile.jpg"
+// import profilePic from "public/assets/anujPanwarProfile.jpg"
 import {HERO_CONTENT} from "../constants"
 import {motion} from "framer-motion"
 
@@ -23,7 +23,7 @@ const Hero = () => {
     <div className="flex flex-wrap lg:flex-row-reverse">
         <div className="w-full lg:w-1/2">
             <div className="flex justify-center lg:p-8">
-                <motion.img src={profilePic} alt="Anuj Panwar" className="border border-stone-900 rounded-3xl" 
+                <motion.img src="/assets/anujPanwarProfile.jpg"  alt="Anuj Panwar" className="border border-stone-900 rounded-3xl" 
                 width={650}
                 height={650}
                 initial={{x:100,opacity:0}}

@@ -1,6 +1,6 @@
-import project1 from "public/assets/projects/project-1.png";
-import project2 from "public/assets/projects/project-2.png";
-import project3 from "public/assets/projects/project-3.png";
+// import project1 from "public/assets/projects/project-1.png";
+// import project2 from "public/assets/projects/project-2.png";
+// import project3 from "public/assets/projects/project-3.png";
 
 
 export const HERO_CONTENT = `I am a passionate frontend developer eager to build user-friendly and visually appealing web applications. With a strong foundation in HTML, CSS, JavaScript, and modern frameworks like React, I enjoy turning ideas into interactive and responsive interfaces. As a quick learner and enthusiastic problem-solver, I aim to contribute to impactful projects while continuously growing my skills and delivering great user experiences.`;
@@ -12,7 +12,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 export const PROJECTS = [
   {
     title: "Social Media Web Application",
-    image: project2,
+    image: "/assets/projects/project-2.png",
     description:
       "An application supports features like user authentication, post creation, commenting and liking other users. The interface is clean, responsive, and optimized for both desktop and mobile devices.",
     technologies: ["HTML", "CSS", "Tailwind", "React","Javascript"],
@@ -21,7 +21,7 @@ export const PROJECTS = [
 
   {
     title: "E-Commerce Web Application",
-    image: project1,
+    image: "/assets/projects/project-1.png",
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Javascript"],
@@ -31,7 +31,7 @@ export const PROJECTS = [
   
   {
     title: "Portfolio Website",
-    image: project3,
+    image: "/assets/projects/project-3.png",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
