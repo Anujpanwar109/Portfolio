@@ -1,6 +1,6 @@
-import project1 from "../assets/projects/project-1.png";
-import project2 from "../assets/projects/project-2.png";
-import project3 from "../assets/projects/project-3.png";
+import project1 from "public/assets/projects/project-1.png";
+import project2 from "public/assets/projects/project-2.png";
+import project3 from "public/assets/projects/project-3.png";
 
 
 export const HERO_CONTENT = `I am a passionate frontend developer eager to build user-friendly and visually appealing web applications. With a strong foundation in HTML, CSS, JavaScript, and modern frameworks like React, I enjoy turning ideas into interactive and responsive interfaces. As a quick learner and enthusiastic problem-solver, I aim to contribute to impactful projects while continuously growing my skills and delivering great user experiences.`;

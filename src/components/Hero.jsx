@@ -1,4 +1,4 @@
-import profilePic from "../assets/anujPanwarProfile.jpg"
+import profilePic from "public/assets/anujPanwarProfile.jpg"
 import {HERO_CONTENT} from "../constants"
 import {motion} from "framer-motion"
 
