@@ -30,6 +30,14 @@ export const PROJECTS = [
   },
   
   {
+    title: "World Info",
+    image: "/assets/projects/world.png",
+    description:
+      "A React web application that shows information about countries such as flags, population, and region using real-time API data.",
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
+    link:"https://world-info-alpha.vercel.app/",
+  },
+  {
     title: "Portfolio Website",
     image: "/assets/projects/project-3.png",
     description:
