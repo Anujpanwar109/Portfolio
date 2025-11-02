@@ -38,6 +38,14 @@ export const PROJECTS = [
     link:"https://world-info-alpha.vercel.app/",
   },
   {
+    title: "CodePlay",
+    image: "/assets/projects/code.png",
+    description:
+      "A simple live code editor with sections for HTML, CSS, and JavaScript that shows real-time output in a preview window.",
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
+    link:"https://online-editor-rouge.vercel.app/",
+  },
+  {
     title: "Portfolio Website",
     image: "/assets/projects/project-3.png",
     description:
